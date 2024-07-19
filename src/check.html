@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart-footer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        footer {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            color: white;
+            background-color: black;
+            padding: 20px;
+        }
+        .left-col {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .right-col {
+            display: grid;
+            grid-template-columns: 1fr;
+            border-left: 2px solid gray;
+            padding-left: 20px;
+        }
+        .footer-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="left-col">
+            <div>
+                <div class="footer-title">ABOUT</div>
+                <span>a</span>
+            </div>
+
+            <div>
+                <div class="footer-title">GROUP COMPANIES</div>
+                <span>b</span>
+            </div>
+
+            <div>
+                <div class="footer-title">HELP</div>
+                <span>c</span>
+            </div>
+
+            <div>
+                <div class="footer-title">CONSUMER POLICY</div>
+                <span>d</span>
+            </div>
+        </div>
+
+        <div class="right-col">
+            <div>
+                <div class="footer-title">Mail Us:</div>
+                <span>e</span>
+                <div class="footer-title">Follow Us:</div>
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-twitter-x"></span>
+                <span class="bi bi-youtube"></span>
+            </div>
+
+            <div>
+                <div class="footer-title">Registered Office Address</div>
+                <span>f</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
